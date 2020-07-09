@@ -1,0 +1,23 @@
+
+#introduce the calculator
+print("Welcome to my calculator\nThe prefixes for the different operations are:")
+print("+ is addition\n- is subtraction\n/ is division\n* is multiplication\n^ is for exponents")
+
+#prompt to get user input for different numbers and operations
+num1 = float(input("Enter First Number: "))
+op = input("Enter Your Operation: ")
+num2 = float(input("Enter Second Number: "))
+
+#check for which operation
+if op == "+":
+    print(num1 + num2)
+elif op == "-":
+    print(num1 - num2)
+elif op == "*":
+    print(num1 * num2)
+elif op == "/":
+    print(num1 / num2)
+elif op == "^":
+    print(num1 ** num2)
+else:
+    print("Invalid Operation")
